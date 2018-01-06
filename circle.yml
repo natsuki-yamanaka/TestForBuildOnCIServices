@@ -8,8 +8,8 @@ dependencies:
   override:
     # - brew install swiftlint imagemagick
     - bundle install --path vendor/bundle
-  cache_directories:
-    - "~/.gem/"
+  # cache_directories:
+    # - "~/.gem/"
 
 test:
   override:
@@ -19,5 +19,6 @@ deployment:
   development:
     branch: master
     commands: 
-      - bundle exec fastlane ios deploygate
+      # - bundle exec fastlane ios deploygate
+      - set -o pipefail && xcodebuild -scheme TestForBuildOnCIServices -project ./TestForBuildOnCIServices.xcodeproj -destination 'generic/platform=iOS' -archivePath /Users/distiller/Library/Developer/Xcode/Archives/2018-01-06/TestForBuildOnCIServices\ 2018-01-06\ 01.35.55.xcarchive archive
 
