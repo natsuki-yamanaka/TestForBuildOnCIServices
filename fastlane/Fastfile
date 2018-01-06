@@ -24,7 +24,7 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    run_tests
+    run_tests(scheme: "TestForBuildOnCIServices")
   end
 
   desc "Upload to DeployGate"
