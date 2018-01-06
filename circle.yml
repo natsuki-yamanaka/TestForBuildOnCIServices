@@ -19,5 +19,5 @@ deployment:
   development:
     branch: master
     commands: 
-      - bundle exec fastlane ios beta
+      - bundle exec fastlane ios deploygate
 
