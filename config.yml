@@ -1,0 +1,23 @@
+machine:
+  xcode:
+    version: 9.2 
+
+dependencies:
+  pre:
+    # - brew update
+  override:
+    # - brew install swiftlint imagemagick
+    - bundle install --path vendor/bundle
+  cache_directories:
+    - "~/.gem/"
+
+test:
+  override:
+    - swiftlint
+    - bundle exec fastlane ios test
+
+deployment:
+  development:
+    branch: master
+    commands: 
+      - bundle exec fastlane ios beta

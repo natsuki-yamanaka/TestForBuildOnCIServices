@@ -14,6 +14,8 @@
 		CC8934CF20009A89003A45CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8934CD20009A89003A45CE /* LaunchScreen.storyboard */; };
 		CC8934DA20009A89003A45CE /* TestForBuildOnCIServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8934D920009A89003A45CE /* TestForBuildOnCIServicesTests.swift */; };
 		CC8934E520009A89003A45CE /* TestForBuildOnCIServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8934E420009A89003A45CE /* TestForBuildOnCIServicesUITests.swift */; };
+		CC8934F320009E7B003A45CE /* JustATest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8934F220009E7B003A45CE /* JustATest.swift */; };
+		CC8934F420009F7C003A45CE /* JustATest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8934F220009E7B003A45CE /* JustATest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		CC8934E020009A89003A45CE /* TestForBuildOnCIServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForBuildOnCIServicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8934E420009A89003A45CE /* TestForBuildOnCIServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForBuildOnCIServicesUITests.swift; sourceTree = "<group>"; };
 		CC8934E620009A89003A45CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8934F220009E7B003A45CE /* JustATest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustATest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				CC8934CB20009A89003A45CE /* Assets.xcassets */,
 				CC8934CD20009A89003A45CE /* LaunchScreen.storyboard */,
 				CC8934D020009A89003A45CE /* Info.plist */,
+				CC8934F220009E7B003A45CE /* JustATest.swift */,
 			);
 			path = TestForBuildOnCIServices;
 			sourceTree = "<group>";
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8934C720009A89003A45CE /* ViewController.swift in Sources */,
+				CC8934F320009E7B003A45CE /* JustATest.swift in Sources */,
 				CC8934C520009A89003A45CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8934DA20009A89003A45CE /* TestForBuildOnCIServicesTests.swift in Sources */,
+				CC8934F420009F7C003A45CE /* JustATest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +436,7 @@
 				DEVELOPMENT_TEAM = R2K79LNEPD;
 				INFOPLIST_FILE = TestForBuildOnCIServices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nyapp.TestForBuildOnCIServices;
+				PRODUCT_BUNDLE_IDENTIFIER = com.livingdeadbny.pushtestapp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +451,7 @@
 				DEVELOPMENT_TEAM = R2K79LNEPD;
 				INFOPLIST_FILE = TestForBuildOnCIServices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nyapp.TestForBuildOnCIServices;
+				PRODUCT_BUNDLE_IDENTIFIER = com.livingdeadbny.pushtestapp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
